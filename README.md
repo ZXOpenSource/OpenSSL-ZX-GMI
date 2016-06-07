@@ -1,6 +1,4 @@
 # OpenSSL-ZX-GMI
-
-Description:
 1. based on OpenSSL
 2. include evp framework of China's Algorithm SM3 and SM4
 3. implement Zhaoxin GMI support as a engines. GMI can be used to speed up the SM3 and SM4.
