@@ -13,7 +13,7 @@ OpenSSL-ZX-GMI
 3. example to show how to build.
 
 ```
-$ ./config --prefix= \<install path\> no-shared
+$ ./config --prefix= <install path> no-shared
 $ make update
 $ make
 $ make install
@@ -24,8 +24,8 @@ $ make install
 2. the ZX-GMI engine code is in version 1.0
 3. example to show how to build. 
 
-```sh
-$ ./config --prefix= \<install path\> no-shared
+```
+$ ./config --prefix= <install path> no-shared
 $ touch crypto/objects/objects.txt 
 $ make
 $ make install
@@ -40,7 +40,7 @@ $ make install
 3. example to show how to build. 
 
 ```sh
-$ ./config --prefix=\<install path\> no-shared
+$ ./config --prefix=<install path> no-shared
 $ make update
 $ make
 $ make install
@@ -52,7 +52,7 @@ $ make install
 3. example to show how to build. 
 
 ```sh
-$ ./config --prefix=\<install path\> no-shared
+$ ./config --prefix=<install path> no-shared
 $ touch crypto/objects/objects.txt 
 $ make
 $ make install
@@ -65,7 +65,7 @@ $ make install
 3. example to show how to build. 
 
 ```sh
-$ ./config --prefix=\<install path\> no-shared
+$ ./config --prefix=<install path> no-shared
 $ make update
 $ make
 $ make install
@@ -77,7 +77,7 @@ $ make install
 3. example to show how to build. 
 
 ```sh
-$ ./config --prefix=\<install path\> no-shared
+$ ./config --prefix=<install path> no-shared
 $ make update
 $ make
 $ make install
@@ -91,7 +91,7 @@ $ make install
 3. example to show how to build. 
 
 ```sh
-$ ./config --prefix=\<install path\> no-shared
+$ ./config --prefix=<install path> no-shared
 $ make update
 $ make
 $ make install
