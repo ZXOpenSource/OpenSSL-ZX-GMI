@@ -71,7 +71,7 @@ OpenSSL-ZX-GMI
 第三次release：
 -----------------------------------
 由于openssl存在安全更新，因此，OpenSSL-ZX-GMI也随之做了相应的更新。
-### openssl-1.1.0e-ZX-GMI-1.1.tar.gz
+### openssl-1.1.0e-ZX-GMI-1.0.tar.gz
 1. based on openssl-1.1.0e.tar.gz
 2. the ZX-GMI engine code is in version 1.0. 
 3. example to show how to build. 
