@@ -1,12 +1,14 @@
 *********************************************************************************************************** 
 OpenSSL-ZX-GMI 
+===================================
 1. based on OpenSSL
 2. include evp framework of China's Algorithm SM3 and SM4
 3. implement Zhaoxin GMI support as a engines. GMI can be used to speed up the SM3 and SM4.
-***********************************************************************************************************   
+  
 
-µÚÒ»´Îrelease£º
-##openssl-1.1.0-pre5-ZX-GMI-1.0.tar.gz
+ç¬¬ä¸€æ¬¡releaseï¼š
+-----------------------------------
+###openssl-1.1.0-pre5-ZX-GMI-1.0.tar.gz
 1. based on openssl 1.1.0-pre5
 2. the ZX-GMI engine code is in version 1.0
 3. example to show how to build. 
@@ -15,7 +17,7 @@ OpenSSL-ZX-GMI
     (3) make
     (4) make install
 
-##openssl-1.0.2h-ZX-GMI-1.0.tar.gz
+###openssl-1.0.2h-ZX-GMI-1.0.tar.gz
 1. based on openssl 1.0.2h
 2. the ZX-GMI engine code is in version 1.0
 3. example to show how to build. 
@@ -23,11 +25,12 @@ OpenSSL-ZX-GMI
     (2) touch crypto/objects/objects.txt 
     (3) make
     (4) make install
-***********************************************************************************************************   
+  
 
-µÚ¶ş´Îrelease£º
-ÓÉÓÚopenssl´æÔÚÖØ´ó°²È«¸üĞÂ£¬Òò´Ë£¬OpenSSL-ZX-GMIÒ²ËæÖ®×öÁËÏàÓ¦µÄ¸üĞÂ¡£ÒÔÉÏÁ½¸ö°æ±¾¸üĞÂºó¶ÔÓ¦µ½ÈçÏÂÁ½¸ö°æ±¾openssl-1.1.0b-ZX-GMI.tar.gzºÍopenssl-1.0.2j-ZX-GMI-1.0.tar.gz
-##openssl-1.1.0b-ZX-GMI-1.0.tar.gz
+ç¬¬äºŒæ¬¡releaseï¼š
+-----------------------------------
+ç”±äºopensslå­˜åœ¨é‡å¤§å®‰å…¨æ›´æ–°ï¼Œå› æ­¤ï¼ŒOpenSSL-ZX-GMIä¹Ÿéšä¹‹åšäº†ç›¸åº”çš„æ›´æ–°ã€‚ä»¥ä¸Šä¸¤ä¸ªç‰ˆæœ¬æ›´æ–°åå¯¹åº”åˆ°å¦‚ä¸‹ä¸¤ä¸ªç‰ˆæœ¬openssl-1.1.0b-ZX-GMI.tar.gzå’Œopenssl-1.0.2j-ZX-GMI-1.0.tar.gz
+###openssl-1.1.0b-ZX-GMI-1.0.tar.gz
 1. based on openssl 1.1.0b
 2. the ZX-GMI engine code is in version 1.0
 3. example to show how to build. 
@@ -36,7 +39,7 @@ OpenSSL-ZX-GMI
     (3) make
     (4) make install
 
-##openssl-1.0.2j-ZX-GMI-1.0.tar.gz
+###openssl-1.0.2j-ZX-GMI-1.0.tar.gz
 1. based on openssl 1.0.2j
 2. the ZX-GMI engine code is in version 1.0
 3. example to show how to build. 
@@ -45,8 +48,8 @@ OpenSSL-ZX-GMI
     (3) make
     (4) make install
 
-GMI update£º    
-##openssl-1.1.0-pre5-ZX-GMI-1.1.tar.gz
+GMI updateï¼š    
+###openssl-1.1.0-pre5-ZX-GMI-1.1.tar.gz
 1. based on openssl-1.1.0-pre5-ZX-GMI-1.0.tar.gz
 2. the ZX-GMI engine code is in version 1.1. Fix sm4-cbc bug.
 3. example to show how to build. 
@@ -55,7 +58,7 @@ GMI update£º
     (3) make
     (4) make install
 
-##openssl-1.1.0b-ZX-GMI-1.1.tar.gz
+###openssl-1.1.0b-ZX-GMI-1.1.tar.gz
 1. based on openssl-1.1.0b-ZX-GMI-1.0.tar.gz
 2. the ZX-GMI engine code is in version 1.1. Fix "make update" failure issue.
 3. example to show how to build. 
@@ -63,11 +66,12 @@ GMI update£º
     (2) make update
     (3) make
     (4) make install
-***********************************************************************************************************    
+  
 
-µÚÈı´Îrelease£º
-ÓÉÓÚopenssl´æÔÚ°²È«¸üĞÂ£¬Òò´Ë£¬OpenSSL-ZX-GMIÒ²ËæÖ®×öÁËÏàÓ¦µÄ¸üĞÂ¡£
-##openssl-1.1.0e-ZX-GMI-1.1.tar.gz
+ç¬¬ä¸‰æ¬¡releaseï¼š
+-----------------------------------
+ç”±äºopensslå­˜åœ¨å®‰å…¨æ›´æ–°ï¼Œå› æ­¤ï¼ŒOpenSSL-ZX-GMIä¹Ÿéšä¹‹åšäº†ç›¸åº”çš„æ›´æ–°ã€‚
+###openssl-1.1.0e-ZX-GMI-1.1.tar.gz
 1. based on openssl-1.1.0e.tar.gz
 2. the ZX-GMI engine code is in version 1.0. 
 3. example to show how to build. 
