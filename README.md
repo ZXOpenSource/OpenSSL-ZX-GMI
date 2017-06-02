@@ -12,10 +12,10 @@ OpenSSL-ZX-GMI
 1. based on openssl 1.1.0-pre5
 2. the ZX-GMI engine code is in version 1.0
 3. example to show how to build. 
-    \</br\> (1) ./config --prefix= \<install path\> no-shared
-    \</br\>(2) make update
-    \</br\>(3) make
-    \</br\>(4) make install
+＜/br＞ (1) ./config --prefix= \<install path\> no-shared
+＜/br＞ (2) make update
+＜/br＞ (3) make
+＜/br＞ (4) make install
 
 ### openssl-1.0.2h-ZX-GMI-1.0.tar.gz
 1. based on openssl 1.0.2h
