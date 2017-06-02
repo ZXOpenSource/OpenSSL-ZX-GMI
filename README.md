@@ -25,14 +25,15 @@ $ make install
 3. example to show how to build. 
 
 ```sh
-$ ./config --prefix= <install path> no-shared
-$ touch crypto/objects/objects.txt 
+$ ./config --prefix=<install path> no-shared
+$ make update
 $ make
 $ make install
-```  
+```
 
 # 第二次release
-由于openssl存在重大安全更新，因此，OpenSSL-ZX-GMI也随之做了相应的更新。以上两个版本更新后对应到如下两个版本openssl-1.1.0b-ZX-GMI.tar.gz和openssl-1.0.2j-ZX-GMI-1.0.tar.gz
+
+- 由于openssl存在重大安全更新，因此，OpenSSL-ZX-GMI也随之做了相应的更新。以上两个版本更新后对应到如下两个版本openssl-1.1.0b-ZX-GMI.tar.gz和openssl-1.0.2j-ZX-GMI-1.0.tar.gz
 
 ### openssl-1.1.0b-ZX-GMI-1.0.tar.gz
 1. based on openssl 1.1.0b
@@ -58,7 +59,8 @@ $ make
 $ make install
 ```
 
-## GMI update：    
+## GMI update
+- 在第二次release的基础上，GMI的版本从1.0更新到1.1.
 ### openssl-1.1.0-pre5-ZX-GMI-1.0.tar.gz
 1. based on openssl-1.1.0-pre5-ZX-GMI-1.0.tar.gz
 2. the ZX-GMI engine code is in version 1.1. Fix sm4-cbc bug.
@@ -84,7 +86,7 @@ $ make install
 ```
 
 # 第三次release
-由于openssl存在安全更新，因此，OpenSSL-ZX-GMI也随之做了相应的更新。
+- 由于openssl存在安全更新，因此，OpenSSL-ZX-GMI也随之做了相应的更新。
 ### openssl-1.1.0e-ZX-GMI-1.0.tar.gz
 1. based on openssl-1.1.0e.tar.gz
 2. the ZX-GMI engine code is in version 1.0. 
