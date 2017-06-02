@@ -12,19 +12,19 @@ OpenSSL-ZX-GMI
 1. based on openssl 1.1.0-pre5
 2. the ZX-GMI engine code is in version 1.0
 3. example to show how to build. 
-    (1) ./config --prefix=<install path> no-shared
-    (2) make update
-    (3) make
-    (4) make install
+        (1) ./config --prefix=<install path> no-shared
+        (2) make update
+        (3) make
+        (4) make install
 
 ### openssl-1.0.2h-ZX-GMI-1.0.tar.gz
 1. based on openssl 1.0.2h
 2. the ZX-GMI engine code is in version 1.0
 3. example to show how to build. 
-    (1) ./config --prefix=<install path> no-shared
-    (2) touch crypto/objects/objects.txt 
-    (3) make
-    (4) make install
+        (1) ./config --prefix=<install path> no-shared
+        (2) touch crypto/objects/objects.txt 
+        (3) make
+        (4) make install
   
 
 第二次release：
@@ -34,38 +34,38 @@ OpenSSL-ZX-GMI
 1. based on openssl 1.1.0b
 2. the ZX-GMI engine code is in version 1.0
 3. example to show how to build. 
-    (1) ./config --prefix=<install path> no-shared
-    (2) make update
-    (3) make
-    (4) make install
+        (1) ./config --prefix=<install path> no-shared
+        (2) make update
+        (3) make
+        (4) make install
 
 ### openssl-1.0.2j-ZX-GMI-1.0.tar.gz
 1. based on openssl 1.0.2j
 2. the ZX-GMI engine code is in version 1.0
 3. example to show how to build. 
-    (1) ./config --prefix=<install path> no-shared
-    (2) touch crypto/objects/objects.txt 
-    (3) make
-    (4) make install
+        (1) ./config --prefix=<install path> no-shared
+        (2) touch crypto/objects/objects.txt 
+        (3) make
+        (4) make install
 
 ## GMI update：    
-### openssl-1.1.0-pre5-ZX-GMI-1.1.tar.gz
+### openssl-1.1.0-pre5-ZX-GMI-1.0.tar.gz
 1. based on openssl-1.1.0-pre5-ZX-GMI-1.0.tar.gz
 2. the ZX-GMI engine code is in version 1.1. Fix sm4-cbc bug.
 3. example to show how to build. 
-    (1) ./config --prefix=<install path> no-shared
-    (2) make update
-    (3) make
-    (4) make install
+        (1) ./config --prefix=<install path> no-shared
+        (2) make update
+        (3) make
+        (4) make install
 
 ### openssl-1.1.0b-ZX-GMI-1.1.tar.gz
 1. based on openssl-1.1.0b-ZX-GMI-1.0.tar.gz
 2. the ZX-GMI engine code is in version 1.1. Fix "make update" failure issue.
 3. example to show how to build. 
-    (1) ./config --prefix=<install path> no-shared
-    (2) make update
-    (3) make
-    (4) make install
+        (1) ./config --prefix=<install path> no-shared
+        (2) make update
+        (3) make
+        (4) make install
   
 
 第三次release：
@@ -75,7 +75,7 @@ OpenSSL-ZX-GMI
 1. based on openssl-1.1.0e.tar.gz
 2. the ZX-GMI engine code is in version 1.0. 
 3. example to show how to build. 
-    (1) ./config --prefix=<install path> no-shared
-    (2) make update
-    (3) make
-    (4) make install
+        (1) ./config --prefix=<install path> no-shared
+        (2) make update
+        (3) make
+        (4) make install
