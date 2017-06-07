@@ -98,6 +98,9 @@ $ make update
 $ make
 $ make install
 ```
+
+## GMI Update
+- 使所有GMI版本都增加对ZX C4700 CPU的支持
 ### openssl-1.1.0-pre5-ZX-GMI-1.2.tar.gz
 1. based on openssl-1.1.0-pre5-ZX-GMI-1.1.tar.gz
 2. the ZX-GMI engine code is in version 1.2. 
