@@ -93,8 +93,28 @@ $ make install
 3. example to show how to build. 
 
 ```sh
+$ ./config --prefix=<install path> no-shared 
+$ make update
+$ make
+$ make install
+```
+### openssl-1.1.0-pre5-ZX-GMI-1.2.tar.gz
+1. based on openssl-1.1.0-pre5-ZX-GMI-1.1.tar.gz
+2. the ZX-GMI engine code is in version 1.2. 
+3. example to show how to build. 
+```sh
 $ ./config --prefix=<install path> no-shared
 $ make update
+$ make
+$ make install
+```
+### openssl-1.0.2h-ZX-GMI-1.1.tar.gz
+1. based on openssl-1.0.2h-ZX-GMI-1.0.tar.gz
+2. the ZX-GMI engine code is in version 1.1. 
+3. example to show how to build. 
+```sh
+$ ./config --prefix=<install path> no-shared
+$ make depend
 $ make
 $ make install
 ```
