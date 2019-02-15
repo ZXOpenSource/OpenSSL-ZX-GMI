@@ -123,4 +123,6 @@ $ make install
 ```
 ## GMI Update
 - 修复ctr/ofb/cfb在处理非16bytes整数倍数据时的问题
+
 - 同时支持ZXC/ZXD/ZXE
+openssl-1.0.2j-ZX-GMI-1.2.tar.gz
